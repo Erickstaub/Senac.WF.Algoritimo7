@@ -11,6 +11,7 @@ namespace refazendo.atividade
         {
             if (textBox2.Text == "0000")
                 MessageBox.Show("Seus dados foram vazad... digo, seus dados foram salvo, é nois cumpincha");
+          
             else
                 MessageBox.Show("Senha errada");
 
