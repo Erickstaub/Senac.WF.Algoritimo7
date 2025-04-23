@@ -10,8 +10,12 @@ namespace refazendo.atividade
         private void button1_Click(object sender, EventArgs e)
         {
             if (textBox2.Text == "0000")
+            {
                 MessageBox.Show("Seus dados foram vazad... digo, seus dados foram salvo, é nois cumpincha");
-          
+                this.Hide();
+                var formprincipal = new FormPrincipal();
+                formprincipal.Show();
+            }
             else
                 MessageBox.Show("Senha errada");
 
@@ -80,7 +84,7 @@ namespace refazendo.atividade
 
         private void label3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Vai cutucar tua mâe");
+            MessageBox.Show("www.chaveirorocha.com.br");
         }
     }
 }

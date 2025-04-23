@@ -1,6 +1,6 @@
 ﻿namespace refazendo.atividade
 {
-    partial class FormPrincipal
+    partial class Entregas
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormPrincipal));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Entregas));
             panel1 = new Panel();
             button6 = new Button();
             button5 = new Button();
@@ -98,7 +98,6 @@
             button5.Text = "Entregas";
             button5.TextAlign = ContentAlignment.MiddleRight;
             button5.UseVisualStyleBackColor = false;
-            button5.Click += button5_Click;
             // 
             // button4
             // 
@@ -115,7 +114,6 @@
             button4.Text = "Clientes";
             button4.TextAlign = ContentAlignment.MiddleRight;
             button4.UseVisualStyleBackColor = false;
-            button4.Click += button4_Click;
             // 
             // button3
             // 
@@ -132,7 +130,6 @@
             button3.Text = "Pagar";
             button3.TextAlign = ContentAlignment.MiddleRight;
             button3.UseVisualStyleBackColor = false;
-            button3.Click += button3_Click;
             // 
             // button2
             // 
@@ -149,7 +146,6 @@
             button2.Text = "Produto";
             button2.TextAlign = ContentAlignment.MiddleRight;
             button2.UseVisualStyleBackColor = false;
-            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -166,7 +162,6 @@
             button1.Text = "Home";
             button1.TextAlign = ContentAlignment.MiddleRight;
             button1.UseVisualStyleBackColor = false;
-            button1.Click += button1_Click;
             // 
             // panel2
             // 
@@ -245,9 +240,9 @@
             label2.AutoSize = true;
             label2.Location = new Point(3, 0);
             label2.Name = "label2";
-            label2.Size = new Size(645, 1625);
+            label2.Size = new Size(97, 25);
             label2.TabIndex = 0;
-            label2.Text = resources.GetString("label2.Text");
+            label2.Text = "ENTREGAS";
             label2.Click += label2_Click;
             // 
             // label1
@@ -259,7 +254,7 @@
             label1.TabIndex = 0;
             label1.Click += label1_Click;
             // 
-            // FormPrincipal
+            // Entregas
             // 
             AutoScaleDimensions = new SizeF(10F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
@@ -270,7 +265,7 @@
             Controls.Add(panel2);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
-            Name = "FormPrincipal";
+            Name = "Entregas";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "FormPrincipal";
             panel1.ResumeLayout(false);

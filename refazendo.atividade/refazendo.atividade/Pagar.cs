@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace refazendo.atividade
 {
-    public partial class FormPrincipal : Form
+    public partial class Pagar : Form
     {
-        public FormPrincipal()
+        public Pagar()
         {
             InitializeComponent();
         }
 
         private void button6_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Vem na proxima update(é mentira)");
+            MessageBox.Show("TESTE");
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -42,6 +42,10 @@ namespace refazendo.atividade
             Application.Exit();
         }
 
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -77,4 +81,6 @@ namespace refazendo.atividade
             formentrega.Show();
         }
     }
-}
+
+    }
+
